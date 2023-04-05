@@ -1,0 +1,7 @@
+<h1> <%= @merchant.name %> </h1>
+
+<section class="merchant_items">
+ <% @items.each do |item| %>
+  <li class="item"><%= item.name %></li>
+ <% end %>
+</section>
