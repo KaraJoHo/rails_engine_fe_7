@@ -1,0 +1,16 @@
+<h1>Welcome!</h1>
+
+<section class="search_form">
+  <%= form_with url: "/", local: true, method: :get do |form| %>
+    <%= form.label :search, "Search for a Merchant" %>
+    <%= form.text_field :search, required: true %>
+    <%= form.submit "Search" %>
+  <% end %>
+</section>
+
+<section class="results">
+  <% if !@merchant.nil? %>
+    <h3> Results: </h3>
+    <li><%= @merchant.name %></li>
+  <% end %>
+</section>
