@@ -1,0 +1,7 @@
+<h1> Items </h1>
+
+<section class="items">
+  <% @items.each do |item| %>
+    <li class="item_name"><%=link_to item.name, item_path(item.id)%></li>
+  <% end %>
+</section>

@@ -4,7 +4,7 @@ RSpec.describe "Merchants Index" do
   before(:each) do 
     visit merchants_path
   end
-  describe " when visiting merchants" do 
+  describe " when visiting merchants", :vcr do 
     it "has a list of merchants by name" do 
 
       within(".merchants") do
