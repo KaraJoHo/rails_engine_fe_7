@@ -37,11 +37,9 @@ RSpec.describe MerchantsItemsService do
       expect(@service.one_item(4)).to be_a(Hash)
       expect(@service.one_item(4)[:data]).to have_key(:attributes)
     end
+
+    it "can get a merchant by searching a name" do 
+      expect(@service.merchant_search("Schroeder")).to be_a(Hash)
+    end
   end
-
-  # describe "conn" do 
-  #   it "is a connection to the base uri" do 
-
-  #   end
-  # end
 end

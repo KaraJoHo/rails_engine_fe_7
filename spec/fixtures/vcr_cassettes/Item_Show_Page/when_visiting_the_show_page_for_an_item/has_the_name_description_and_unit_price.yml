@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0d6011e4-21e8-4e70-9c4d-2a45e28be242
+      - 2c266a9e-5578-4366-b4e2-169770330d78
       X-Runtime:
-      - '0.005811'
+      - '0.004979'
       Server-Timing:
-      - start_processing.action_controller;dur=0.12, sql.active_record;dur=0.74, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.45
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.62, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.33
       Transfer-Encoding:
       - chunked
     body:
@@ -52,5 +52,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:57 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:03 GMT
 recorded_with: VCR 6.1.0

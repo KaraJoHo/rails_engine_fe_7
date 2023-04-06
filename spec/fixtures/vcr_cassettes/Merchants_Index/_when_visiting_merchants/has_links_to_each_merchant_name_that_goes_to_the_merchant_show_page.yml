@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ed2b307e-9342-4c09-99dd-771918307773
+      - ba36629e-951c-4ec1-a752-8fc5b05e0acf
       X-Runtime:
-      - '0.008755'
+      - '0.008078'
       Server-Timing:
-      - start_processing.action_controller;dur=0.04, sql.active_record;dur=1.49, instantiation.active_record;dur=0.30,
-        process_action.action_controller;dur=5.06
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.82, instantiation.active_record;dur=0.21,
+        process_action.action_controller;dur=4.34
       Transfer-Encoding:
       - chunked
     body:
@@ -113,7 +113,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -153,12 +153,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 06ff6018-07bc-4d95-b3b2-da1c2946eca0
+      - fdf57e00-8cb0-4210-9174-e5d375b16d97
       X-Runtime:
-      - '0.006457'
+      - '0.006756'
       Server-Timing:
-      - start_processing.action_controller;dur=0.06, sql.active_record;dur=1.13, instantiation.active_record;dur=0.18,
-        process_action.action_controller;dur=2.77
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=1.42, instantiation.active_record;dur=0.15,
+        process_action.action_controller;dur=3.15
       Transfer-Encoding:
       - chunked
     body:
@@ -204,7 +204,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1
@@ -244,16 +244,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e9cc596f-f625-4aca-af5e-ffedc041cfd4
+      - 86e1c451-f047-42ca-977e-eaba0d5daed7
       X-Runtime:
-      - '0.005654'
+      - '0.004721'
       Server-Timing:
-      - start_processing.action_controller;dur=0.10, sql.active_record;dur=0.55, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.26
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.54, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.21
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 recorded_with: VCR 6.1.0

@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - dc4ebc04-b86a-48e0-bb61-8680ad7d4737
+      - d1c3a8e2-fbd2-4be8-8ab9-663cf1a6f515
       X-Runtime:
-      - '0.008235'
+      - '0.007805'
       Server-Timing:
-      - start_processing.action_controller;dur=0.05, sql.active_record;dur=0.92, instantiation.active_record;dur=0.23,
-        process_action.action_controller;dur=4.53
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.75, instantiation.active_record;dur=0.21,
+        process_action.action_controller;dur=4.17
       Transfer-Encoding:
       - chunked
     body:
@@ -113,7 +113,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants
@@ -153,12 +153,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d569c4a8-d5d2-477c-800d-217e32148b90
+      - e3925804-d8cb-49ce-b36f-187de0c727a4
       X-Runtime:
-      - '0.008065'
+      - '0.007929'
       Server-Timing:
-      - start_processing.action_controller;dur=0.04, sql.active_record;dur=1.03, instantiation.active_record;dur=0.22,
-        process_action.action_controller;dur=4.48
+      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.97, instantiation.active_record;dur=0.21,
+        process_action.action_controller;dur=4.40
       Transfer-Encoding:
       - chunked
     body:
@@ -227,7 +227,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants
@@ -267,12 +267,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 531d4cc4-ae92-4287-b359-f8d31c7864fb
+      - 56025c4d-116d-4c50-bd24-92312b0a4584
       X-Runtime:
-      - '0.008259'
+      - '0.008051'
       Server-Timing:
-      - start_processing.action_controller;dur=0.04, sql.active_record;dur=0.77, instantiation.active_record;dur=0.27,
-        process_action.action_controller;dur=4.61
+      - start_processing.action_controller;dur=0.05, sql.active_record;dur=1.00, instantiation.active_record;dur=0.24,
+        process_action.action_controller;dur=4.45
       Transfer-Encoding:
       - chunked
     body:
@@ -341,5 +341,5 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 recorded_with: VCR 6.1.0

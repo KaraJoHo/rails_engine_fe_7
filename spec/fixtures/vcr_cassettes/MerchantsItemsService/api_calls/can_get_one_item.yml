@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0d676585-b6ef-4640-81c6-2af87c0c9c6a
+      - 9b817d8e-e2c1-4fd3-b2d7-8742bf4a8231
       X-Runtime:
-      - '0.005075'
+      - '0.005859'
       Server-Timing:
-      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.62, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.30
+      - start_processing.action_controller;dur=0.07, sql.active_record;dur=0.79, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.45
       Transfer-Encoding:
       - chunked
     body:
@@ -52,7 +52,7 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:59 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:05 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -92,12 +92,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 85d0bffd-88ed-4137-bd92-0806c4c495ee
+      - ba67f7b1-69d6-430c-9e75-fcc699b9d96c
       X-Runtime:
-      - '0.005677'
+      - '0.005086'
       Server-Timing:
-      - start_processing.action_controller;dur=0.09, sql.active_record;dur=0.81, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.62
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.81, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.46
       Transfer-Encoding:
       - chunked
     body:
@@ -105,5 +105,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:59 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:05 GMT
 recorded_with: VCR 6.1.0

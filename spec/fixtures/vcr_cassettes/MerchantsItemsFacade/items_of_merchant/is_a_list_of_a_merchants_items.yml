@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c5a6c74b-a1aa-458e-8c63-0d3ef6b2edc3
+      - 283d5762-eebf-492d-8cde-0614cb5aae66
       X-Runtime:
-      - '0.028392'
+      - '0.008866'
       Server-Timing:
-      - start_processing.action_controller;dur=0.08, sql.active_record;dur=12.22,
-        instantiation.active_record;dur=5.44, process_action.action_controller;dur=23.28
+      - start_processing.action_controller;dur=0.07, sql.active_record;dur=2.17, instantiation.active_record;dur=0.21,
+        process_action.action_controller;dur=5.03
       Transfer-Encoding:
       - chunked
     body:
@@ -90,7 +90,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:56 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:02 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -130,12 +130,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9a704ff8-f92a-4de0-9196-d52b8804f555
+      - a7f8b7a4-0488-4396-aaae-1ecb55a178b6
       X-Runtime:
-      - '0.006873'
+      - '0.007124'
       Server-Timing:
-      - start_processing.action_controller;dur=0.07, sql.active_record;dur=1.22, instantiation.active_record;dur=0.17,
-        process_action.action_controller;dur=3.03
+      - start_processing.action_controller;dur=0.07, sql.active_record;dur=1.42, instantiation.active_record;dur=0.16,
+        process_action.action_controller;dur=3.24
       Transfer-Encoding:
       - chunked
     body:
@@ -181,7 +181,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:56 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:02 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -221,12 +221,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a95e221c-a84c-4a28-baf9-714fc7b10ed0
+      - b98c53fd-1f8c-4189-8897-01c93aa27f68
       X-Runtime:
-      - '0.007023'
+      - '0.007176'
       Server-Timing:
-      - start_processing.action_controller;dur=0.08, sql.active_record;dur=1.73, instantiation.active_record;dur=0.15,
-        process_action.action_controller;dur=3.39
+      - start_processing.action_controller;dur=0.07, sql.active_record;dur=1.69, instantiation.active_record;dur=0.16,
+        process_action.action_controller;dur=3.53
       Transfer-Encoding:
       - chunked
     body:
@@ -272,5 +272,5 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:57 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:02 GMT
 recorded_with: VCR 6.1.0
