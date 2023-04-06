@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b670ce18-18f3-4f12-9247-4141806d46b3
+      - af2a7706-abd6-49b8-8417-13b99cb3f6ee
       X-Runtime:
-      - '0.006999'
+      - '0.006472'
       Server-Timing:
-      - start_processing.action_controller;dur=0.06, sql.active_record;dur=1.56, instantiation.active_record;dur=0.16,
-        process_action.action_controller;dur=3.26
+      - start_processing.action_controller;dur=0.08, sql.active_record;dur=1.17, instantiation.active_record;dur=0.15,
+        process_action.action_controller;dur=2.85
       Transfer-Encoding:
       - chunked
     body:
@@ -90,7 +90,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1
@@ -130,16 +130,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 178b2c7e-a7ca-474b-a072-0aca8ae153be
+      - cbb802aa-9961-4d4e-9ca9-b4aa87f7b497
       X-Runtime:
-      - '0.004753'
+      - '0.004708'
       Server-Timing:
-      - start_processing.action_controller;dur=0.07, sql.active_record;dur=0.49, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.11
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.47, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.07
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 recorded_with: VCR 6.1.0

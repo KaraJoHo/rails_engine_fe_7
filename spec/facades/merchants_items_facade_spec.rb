@@ -26,4 +26,25 @@ RSpec.describe MerchantsItemsFacade do
       expect(@facade.items_of_merchant(1).first).to be_a(Item)
     end
   end
+
+  describe "all_items", :vcr do 
+    it "is a list of a items" do 
+      expect(@facade.all_items).to be_an(Array)
+      expect(@facade.all_items.count).to eq(2483)
+      expect(@facade.all_items.first.name).to eq("Item Nemo Facere")
+    end
+  end
+
+  describe "one_item", :vcr do 
+    it "is information for one item" do 
+      expect(@facade.one_item(4)).to be_a(Item)
+      expect(@facade.one_item(4).name).to eq("Item Nemo Facere")
+    end
+  end
+
+  describe "merchant_search", :vcr do 
+    it "is the result of names from a merchant search api call" do 
+      expect(@facade.merchant_search("Schroeder")).to be_a(Merchant)
+    end
+  end
 end

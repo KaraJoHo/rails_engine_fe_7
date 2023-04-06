@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/find?name=
+    uri: http://localhost:3000/api/v1/merchants/find?name=Schroeder
     body:
       encoding: US-ASCII
       string: ''
@@ -35,20 +35,20 @@ http_interactions:
       Vary:
       - Accept
       Etag:
-      - W/"b7b680abde3ab61ddce52a9d120d7836"
+      - W/"bc1fd1230d92d0b6bb211d1985ff7fd3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 577808bf-dd9c-4b3e-b973-3e3ade2c9021
+      - 42326923-f7e0-4be2-ae31-037b99ed65e6
       X-Runtime:
-      - '0.005837'
+      - '0.009233'
       Server-Timing:
-      - start_processing.action_controller;dur=0.07, sql.active_record;dur=1.17, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=2.04
+      - start_processing.action_controller;dur=0.07, sql.active_record;dur=2.11, instantiation.active_record;dur=0.04,
+        process_action.action_controller;dur=3.54
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"15","type":"merchant","attributes":{"name":"Adams-Kovacek"}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+      string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
+  recorded_at: Thu, 06 Apr 2023 18:53:36 GMT
 recorded_with: VCR 6.1.0

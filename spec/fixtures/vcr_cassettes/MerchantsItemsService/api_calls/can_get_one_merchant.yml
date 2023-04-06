@@ -39,18 +39,18 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 23bed42c-c3dd-4b53-b9ab-97d37b1e9860
+      - 3900dee3-4298-47f0-94c9-e18354cbb4c9
       X-Runtime:
-      - '0.004737'
+      - '0.004819'
       Server-Timing:
-      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.47, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.06
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.54, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.19
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1
@@ -90,16 +90,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 71043d52-bec2-4bb8-809a-cc71fe5373c3
+      - 2cc04dbe-32b5-4e5f-bd4d-5fbfb86e16db
       X-Runtime:
-      - '0.005462'
+      - '0.004774'
       Server-Timing:
-      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.73, instantiation.active_record;dur=0.03,
-        process_action.action_controller;dur=1.84
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.53, instantiation.active_record;dur=0.02,
+        process_action.action_controller;dur=1.16
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 recorded_with: VCR 6.1.0

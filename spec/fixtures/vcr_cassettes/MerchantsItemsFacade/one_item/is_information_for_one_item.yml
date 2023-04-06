@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/find?name=
+    uri: http://localhost:3000/api/v1/items/4
     body:
       encoding: US-ASCII
       string: ''
@@ -35,25 +35,27 @@ http_interactions:
       Vary:
       - Accept
       Etag:
-      - W/"b7b680abde3ab61ddce52a9d120d7836"
+      - W/"ea1d59bea0442421960da290dcded583"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4bd5f6e2-527c-4562-bf27-27e2c22cf00b
+      - 64e29151-c65c-4ab0-ad96-55494544b179
       X-Runtime:
-      - '0.050112'
+      - '0.005055'
       Server-Timing:
-      - start_processing.action_controller;dur=0.12, sql.active_record;dur=17.78,
-        instantiation.active_record;dur=0.19, process_action.action_controller;dur=41.64
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.58, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.36
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"15","type":"merchant","attributes":{"name":"Adams-Kovacek"}}}'
-  recorded_at: Thu, 06 Apr 2023 18:26:15 GMT
+      string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
+        eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
+        ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
+  recorded_at: Thu, 06 Apr 2023 18:54:02 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/find?name=!
+    uri: http://localhost:3000/api/v1/items/4
     body:
       encoding: US-ASCII
       string: ''
@@ -86,19 +88,22 @@ http_interactions:
       Vary:
       - Accept
       Etag:
-      - W/"7fb9d166d1a15bce0b9f085f3818946f"
+      - W/"ea1d59bea0442421960da290dcded583"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b2b15c7b-4b1b-49c4-861f-71f36154c31a
+      - 5191c54b-c052-4202-810c-fa1942666e41
       X-Runtime:
-      - '0.006062'
+      - '0.005009'
       Server-Timing:
-      - start_processing.action_controller;dur=0.07, sql.active_record;dur=1.49, process_action.action_controller;dur=2.24
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=0.76, instantiation.active_record;dur=0.03,
+        process_action.action_controller;dur=1.43
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{}}'
-  recorded_at: Thu, 06 Apr 2023 18:26:15 GMT
+      string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
+        eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
+        ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
+  recorded_at: Thu, 06 Apr 2023 18:54:02 GMT
 recorded_with: VCR 6.1.0

@@ -39,12 +39,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d33cdeda-54aa-4da0-bd79-a311da268f3b
+      - 9ab8ff65-811a-45eb-9026-8dbf28feaa0c
       X-Runtime:
-      - '0.007038'
+      - '0.006452'
       Server-Timing:
-      - start_processing.action_controller;dur=0.07, sql.active_record;dur=1.32, instantiation.active_record;dur=0.16,
-        process_action.action_controller;dur=3.11
+      - start_processing.action_controller;dur=0.06, sql.active_record;dur=1.18, instantiation.active_record;dur=0.15,
+        process_action.action_controller;dur=2.82
       Transfer-Encoding:
       - chunked
     body:
@@ -90,7 +90,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -130,12 +130,12 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2ef50405-ad7b-454c-bb56-4cea78466f16
+      - 6ec24062-c858-4fba-b96f-7fa4d4e0d712
       X-Runtime:
-      - '0.006582'
+      - '0.006393'
       Server-Timing:
       - start_processing.action_controller;dur=0.06, sql.active_record;dur=1.15, instantiation.active_record;dur=0.16,
-        process_action.action_controller;dur=2.86
+        process_action.action_controller;dur=2.79
       Transfer-Encoding:
       - chunked
     body:
@@ -181,5 +181,5 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 06 Apr 2023 18:06:58 GMT
+  recorded_at: Thu, 06 Apr 2023 18:54:04 GMT
 recorded_with: VCR 6.1.0
